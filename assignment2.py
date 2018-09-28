@@ -25,5 +25,8 @@ print("%s %s %d"%(s,course,fees))
 #Take radius as input from user 
 #Print the area of circle
 pi=3.14
+r=float(input("Enter the radius"))
+print(pi*r*r)
+print(pi*r**2)
 
 
